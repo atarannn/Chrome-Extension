@@ -18,7 +18,8 @@ Once installed, follow these steps to use the extension:
 1. Navigate to a web page where you want to download HTML content.
 2. Click on the extension icon in the browser toolbar.
 3. Enter the CSS selector for the elements you want to download.
-4. Click the "Download HTML" button.
+   `Example: [data-cy="l-card"] - https://www.olx.ua/uk/transport/?currency=EUR&view=list`
+5. Click the "Download HTML" button.
 
 ## Features
 
