@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Extension for Downloading HTML of Selected Elements",
+  "version": "1.0",
+  "description": "A Chrome extension that allows users to download the HTML content of selected elements on web pages.",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
